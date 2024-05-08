@@ -1,0 +1,233 @@
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url(bodyback.jpg);
+    background-position: center -40%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+   background-attachment: fixed;
+    font-family: sans-serif;
+    margin: 0;
+}
+.nav {
+    overflow: hidden;
+    backdrop-filter: blur(7px);
+    background-color: rgba(0, 0, 255, 0.132); 
+    background-image: url(logo2.png);
+    background-repeat: no-repeat;
+    background-position:350px;
+    background-size: 20%;
+    border-radius: 0px;
+    box-shadow: 50px 50px 1000px 50px rgba(0, 0, 255, 0.459);
+    width: 100%;
+    height: 151px;
+    position: fixed;
+    z-index: 1;
+    margin: 0;
+}
+.nav .right a{
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(230, 211, 181, 0.235);
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+    border-radius: 36px;
+    margin: 15px;
+    transition: all 0.5s ease;
+    width: 150px;
+}
+.nav a:active{
+    color: white;
+}
+.right:hover a {
+    filter: blur(4px);
+}
+.right a:hover {
+    box-shadow: 2px 2px 20px 2px rgba(217, 255, 0, 0.183);
+    filter: blur(0px);
+    scale: 1.2;
+}
+.right{
+    float: right;
+    margin: 32px;
+    align-items: center;
+}
+
+.nav img {
+    width: 308px;
+    height: 148px;
+    transition: all 1s ease;
+}
+.nav img:hover{
+    scale: 1.2;
+    filter: drop-shadow(2px 2px 50px  yellow);
+}
+.menu h1, h2, p {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.menu h2 {
+    /*background-color: rgba(245, 0, 0, 0.5);
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.534), rgba(255, 166, 0, 0.705));
+    box-shadow: 5px 5px 25px orange, -5px -5px 25px red;*/
+    filter: drop-shadow(5px 5px 20px rgb(102, 255, 0));
+    
+}
+.menu{
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.463);
+    
+    margin: auto;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 300px 10px rgba(0, 0, 255, 0.308);
+    margin-bottom: 25px;
+    margin-top: 70px;
+}
+hr {
+  height: 2px;
+  background-color: orange;
+  border-color: orange;
+}
+.item p {
+    display: inline-block;
+}
+.flavor {
+    color: orange;
+    font-size: 25px;
+    text-align: left;
+    width: 75%;
+}
+.price {
+    color: orange;
+    font-size: 25px;
+    text-align: right;
+    width: 20%;
+}
+.flavor, .price {
+    border-bottom: 2px dotted orange;  
+}
+.desc {
+    font-size: x-large;
+    text-align: left;
+    width: 75%;
+    margin: 0;
+    margin-left: 60px;
+}
+.image-paragraph img,
+.image-paragraph p {
+    display: inline-block;
+    vertical-align: middle; 
+}
+.image-list img,
+.image-list section {
+    display: inline-block;
+    vertical-align: middle; 
+}
+.list {
+    width: 50%;
+    margin-left: 15px;
+}
+.list p.flavor, .price {
+    margin: 0;
+}
+button {
+    float: right;
+    margin-right: 260px;
+    background-color:orange;
+    color:white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 26px;
+    transition: all 0.7s ease;
+    border: solid 0.5px rgb(193, 252, 56);
+}
+button:hover{
+    background-color: rgb(214, 151, 34);
+    scale: 1.2;
+    filter: drop-shadow(2px 2px 50px  rgba(179, 192, 2, 0.514));
+}
+img.food{
+    width: 200px;
+    transition: all 1.4s ease;
+}
+img.food:hover{
+    scale: 1.3;
+    filter: drop-shadow(2px 2px 30px rgba(255, 217, 0, 0.37));
+} 
+.naruto{
+    position: absolute;
+    top: 50%;
+}
+.b {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.c{
+    position: absolute;
+    top: 100%;
+}
+.d {
+    position: absolute;
+    top: 300%;
+}
+.e{
+    position: absolute;
+    top: 350%;
+    right: 0;
+}
+.f {
+    position: absolute;
+    top: 150%;
+    right: 0;
+}
+.g{
+    position: absolute;
+    top: 200%;
+}
+.h {
+    position: absolute;
+    top: 250%;
+    right: 0;
+}
+footer {
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position:relative;
+    bottom: 0;
+    width: 96%;
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: 0px 0px 300px 10px rgba(0, 0, 255, 0.308);
+}
+footer a{
+    text-decoration: none;
+    color: orange;
+    font-size: 40px;
+    filter: drop-shadow(5px 5px 20px rgb(102, 255, 0));
+    transition: all 0.7s ease;
+}
+footer p{
+    margin: 18px;
+}
+footer i:hover{
+    scale: 1.2;
+}
+.background{
+    margin-top: 180px;
+    width: 20%;
+    border-radius: 20px;
+}
+.background2{
+    width: 20%;
+    border-radius: 20px;
+}
