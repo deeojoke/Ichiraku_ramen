@@ -158,3 +158,60 @@ h2{
     margin-top: 80px;
     filter: drop-shadow(5px 5px 20px rgb(102, 255, 0));
 }
+
+@media screen and (max-width: 800px) {
+   
+    .nav {
+        
+        
+        height: auto;
+    }
+    
+  
+    .nav img {
+        width: 50%; 
+        
+    }
+    .nav .right a {
+        padding: 5px; 
+        margin: 10px; 
+        font-size: 16px; 
+    }
+    
+    header {
+        margin-top: 1%; 
+    }
+    
+    footer {
+        font-size: 14px; 
+        margin-top: 10%;     
+    }
+    .contact-info {
+        font-size: large; 
+        margin-top: 2%; 
+        margin-bottom: 2%; 
+    }
+    
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        width: 90%; 
+        margin: 5px auto; 
+    }
+    
+    .contact-form input[type="submit"] {
+        width: 90%; 
+        margin: 10px auto; 
+    }
+    
+    .map-container {
+        margin-top: 10px; 
+    }
+    
+    iframe {
+        width: 90%; 
+    }
+    
+    h2 {
+        margin-top: 50px; 
+    }
+}
