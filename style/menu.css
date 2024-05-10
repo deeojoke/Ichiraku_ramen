@@ -231,3 +231,66 @@ footer i:hover{
     width: 20%;
     border-radius: 20px;
 }
+
+@media screen and (max-width:800px) {
+    
+    .nav {
+    
+        height: auto;
+    }
+
+    .nav img {
+        width: 50%; 
+    }
+
+    .nav .right a {
+        padding: 5px; 
+        margin: 10px; 
+        font-size: 16px; 
+    }
+
+    .menu {
+        width: 90%; 
+    }
+
+    .menu h2 {
+        width: 50%;
+    }
+    
+    .item p {
+        font-size: 16px; 
+    }
+    .image-container{
+        width: 60%;
+    }
+    .image-container2{
+        width: 50%;
+    }
+    .image-container3{
+        width: 55%;
+    } 
+
+    .desc {
+        font-size: 16px; 
+        margin-left: 20px; 
+    }
+
+    .list {
+        width: 90%; 
+        margin-left: 10px; 
+    }
+
+    button {
+        margin-right: 20px; 
+    }
+
+    .background,
+    .background2 {
+        width: 40%; 
+        }
+
+    footer {
+        font-size: 14px; 
+        margin-top: 10%;     
+    }
+}
