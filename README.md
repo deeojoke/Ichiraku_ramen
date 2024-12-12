@@ -1,3 +1,1 @@
-BACHA Djaafar,
-LOUNES Rayane,
-BELAIDI Youva,
+this is a simple project for restaurant website 
